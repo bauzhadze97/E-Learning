@@ -32,6 +32,10 @@ nav button{
     font-weight: 700;
     cursor: pointer;
 }
+nav button:hover{
+    background: #666CA3;
+border-radius: 28px;
+}
 header {
     display: flex;
     justify-content: center;
@@ -60,6 +64,10 @@ header div button{
     color: #FFFFFF;
     margin: 24px 192px 46px 0;
     cursor: pointer;
+}
+header div button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 31.5px;
 }
 .mobile{
     width: 100%;
@@ -107,6 +115,10 @@ section .card h2{
     font-size: 18px;
     font-weight: 700;
     margin: 0 0 32px 28px;
+    cursor: pointer;
+}
+section .card h2:hover{
+    color: #FFA7C3;
 }
 section .card .card-img{
     margin: -24px 0 0 28px;
@@ -130,6 +142,10 @@ footer button{
     font-weight: 700;
     font-size: 16px;
     margin-right: 16px;
+}
+footer button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+border-radius: 28px;
 }
 @media screen and (min-width:768px) {
     nav{
@@ -179,7 +195,10 @@ footer button{
         display: grid;
         grid-template-columns: 350px 350px 350px;
     }
-    footer{
-        
+    footer img{
+        margin: 43px 0 43px 165px;
+    }
+    footer button{
+        margin-right: 165px;
     }
 }
