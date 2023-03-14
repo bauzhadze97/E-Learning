@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    font-family: 'Plus Jakarta Sans';
+    max-width: 100vw;
+    min-height: 100vh;
+}
+main{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 16px 16px 0 16px;
+}
+nav img{
+    width: 89px;
+    height: 35px;
+    margin: 0 110px 0 0;
+}
+nav button{
+    background: #13183F;
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 38px 16px 0 16px;
+}
+header h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #13183F;
+    padding: 0 0 26px 0;
+}
+header h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #83869A;
+}
+header button{
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px; 
+    color: #FFFFFF;
+    margin: 24px 192px 46px 0;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .popular{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 24px 29px 32px 28px;
+    margin: 0 16px 40px 16px;
+}
+section .card{
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin:0 16px 40px 16px;
+}
+section .card h1{
+    color: #13183F;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 24px 0 16px 28px;
+}
+section .card p{
+    margin: 0 29px 24px 28px;
+    color: #83869A;
+    font-size: 16px;
+    font-weight: 500;
+}
+section .card h2{
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 32px 28px;
+}
+section .card .card-img{
+    margin: -24px 0 0 28px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #13183F;
+}
+footer img{
+    margin: 43px 0 43px 16px;
+}
+footer button{
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 16px;
+}
