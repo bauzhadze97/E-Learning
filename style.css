@@ -15,13 +15,11 @@ main{
 }
 nav{
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
     margin: 16px 16px 0 16px;
 }
 nav img{
-    width: 89px;
-    height: 35px;
     margin: 0 110px 0 0;
 }
 nav button{
@@ -41,18 +39,18 @@ header {
     flex-direction: column;
     margin: 38px 16px 0 16px;
 }
-header h1{
+header div h1{
     font-size: 40px;
     font-weight: 800;
     color: #13183F;
     padding: 0 0 26px 0;
 }
-header h2{
+header div h2{
     font-size: 16px;
     font-weight: 500;
     color: #83869A;
 }
-header button{
+header div button{
     width: 167px;
     height: 56px;
     font-weight: 700;
@@ -63,8 +61,12 @@ header button{
     margin: 24px 192px 46px 0;
     cursor: pointer;
 }
-header img{
+.mobile{
+    width: 100%;
     max-width: 327px;
+}
+.tablet, .desktop {
+    display: none;
 }
 section{
     display: flex;
@@ -128,4 +130,56 @@ footer button{
     font-weight: 700;
     font-size: 16px;
     margin-right: 16px;
+}
+@media screen and (min-width:768px) {
+    nav{
+        margin: 31px 39px 0 39px;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 330px 330px;
+        gap: 10px;
+        margin: 39px 0 0 0;
+    }
+    .mobile, .desktop{
+        display: none;
+    }
+    .tablet {
+        display: block;
+        width: 100%;
+        margin-bottom: 99px;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 340px 340px;
+    }
+    section .popular{
+        padding: 56px 21px 139px 32px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    nav{
+        margin: 29px 39px 0 165px;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop{
+        display: block;
+        width: 100%;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 69px;
+        margin: 10px 0 0 165px;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+    }
+    footer{
+        
+    }
 }
