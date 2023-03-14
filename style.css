@@ -63,6 +63,9 @@ header button{
     margin: 24px 192px 46px 0;
     cursor: pointer;
 }
+header img{
+    max-width: 327px;
+}
 section{
     display: flex;
     justify-content: center;
@@ -83,6 +86,7 @@ section .card{
     border-radius: 10px;
     background-color: #FFFFFF;
     margin:0 16px 40px 16px;
+    max-width: 343px;
 }
 section .card h1{
     color: #13183F;
